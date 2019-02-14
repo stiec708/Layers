@@ -140,7 +140,7 @@ img {
     position: absolute;
     top: 0px ;
     left: 230px;  
-    z-index: 3 ;
+    z-index: 5 ;
     width: 10vh;
     height: 10vh;
 }
@@ -170,7 +170,6 @@ img {
   position: relative;
   top:  0;
   left:  0;
-  width: 240px;
 }
 .location {
     width: auto;
@@ -189,13 +188,15 @@ img {
 .adress {
     display: inline-block;
     position: relative;
-    top:  0;
-    left:  340px;
+    top:  10px;
+    left:  330px;
     float: left;
     width: 120px;
+    position: fixed;
 }
 .header {
     z-index: 6;
+    position: fixed;
 }
 .order{
   width: 60vh;
