@@ -189,7 +189,7 @@ img {
     height: 90px ;
     position: absolute;
     top: 0;
-    left: 20px;
+    left: 0;
     opacity: 0 ;
     z-index: 2 ;
 }
@@ -207,18 +207,39 @@ img {
     position: fixed;
 }
 .order{
-  width: 60vh;
-  height: 20vh;
+  width: 15vh;
+  height: 15vh;
+  display: inline-block;
+  float: right;
+  margin: 1vh;
   background-color:red;
+  border-radius: 25px;
+  z-index: 2;
+  background-image: url(cart.png);
+  background-size: 15vh;
+}
+.add{
+  display: inline-block;
+  float: right;
+  margin: 1vh;
+  width: 15vh;
+  height: 15vh;
+  background-color:red;
+  border-radius: 25px;
+  z-index: 2;
+  text-align: center;
+  color: #FDDBFC;
+  font-size: 13.5vh;
+}
+.footer{
+  width: 60vh;
+  height: 15vh;
   position: fixed;
   margin: auto;
   left: 0;
   right: 0;
-  bottom: 0;
-  border-radius: 25px;
+  bottom: 2vh;
   z-index: 2;
-  background-image: url(cart.png);
-  background-size: 20vh;
 }
 .smiley {
   font-size: 13vw;
