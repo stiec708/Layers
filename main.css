@@ -240,7 +240,7 @@ img {
   margin: auto;
   right: 0;
   bottom: 2vh;
-  z-index: 2;
+  z-index: 4;
 }
 .smiley {
   font-size: 13vw;
