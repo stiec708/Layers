@@ -13,6 +13,7 @@ body {
     left: 0;
     right: 0;
     top: 30vh;
+    z-index: 3;
 }
 img {
     width: auto;
@@ -118,6 +119,7 @@ img {
     top: 35vh;
     padding-bottom: 20vh;
     opacity: 1;
+    z-index:1;
 }
 .w3-button {
  height:60vh;
@@ -261,4 +263,30 @@ img {
 @keyframes zoom{
   from {font-size: 13vw;}
 to {font-size: 18vw;}
+}
+
+.hide {
+  height: 100vh;
+  width:60vh;
+  position: fixed;
+  margin: auto;
+  top:0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.top{
+  background-color: #FDDBFC;
+  height: 50vh;
+  width: 60vh;
+  position: relative;
+  top: 0;
+}
+.bottom {
+  background-color: #FDDBFC;
+  height: 29vh;
+  width: 60vh;
+  position: absolute;
+  bottom: 0;
 }
