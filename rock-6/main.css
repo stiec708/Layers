@@ -1,0 +1,94 @@
+body {
+    background-color: #FDDBFC;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FF1A1A;
+}
+.person {
+    position: absolute;
+    top: 0px ;
+    left: 230px;  
+    z-index: 3 ;
+    width: 10vh;
+    height: 10vh;
+}
+#video {
+    position: absolute;
+    top:0;
+    left: 0;  
+    z-index: 1 ;
+}
+#canvas {
+    position: absolute;
+    top:0;
+    left: 0;  
+    z-index: 2 ;
+}
+#snap {
+    position: absolute;
+    top: 0px ;
+    left: 230px;    
+    z-index: 4 ;
+    width: 10vh;
+    height: 10vh;
+    opacity: 0 ;
+}
+.photo {
+  display: inline-block;
+  position: relative;
+  top:  0;
+  left:  0;
+  width: 240px;
+}
+.bread{
+    height: 60vh;
+    width: 60vh;
+    position: fixed;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 30vh;
+    z-index: 1
+}
+img {
+    width: auto;
+    height: 100%;
+    max-width: 100%;
+}
+
+.w3-button {
+    height:60vh;
+    width: 29vh;
+    opacity: 0 ;
+   }
+   .buttons {
+    height: 60vh;
+    width: 60vh;
+    position:  absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+   }
+   .w3-button:hover {
+       opacity: 0.2;
+   }
+
+   #canvas2 {
+    height: 60vh;
+    width: 60vh;
+    position: absolute;
+    left: 0;
+    top: 30vh;
+    z-index: 2 ;
+    background-color: black;
+}
+#snap2 {
+    position: absolute;
+    top: 0px ;
+    left: 230px;    
+    z-index: 4 ;
+    width: 10vh;
+    height: 10vh;
+}

@@ -290,3 +290,12 @@ to {font-size: 18vw;}
   position: absolute;
   bottom: 0;
 }
+.cart{
+  background-color: black;
+  opacity: 0.5;
+  width: 20vh;
+  height: 15vh;
+  position: absolute;
+  top: 0;
+  
+}
